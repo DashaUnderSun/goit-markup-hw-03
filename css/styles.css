@@ -43,6 +43,33 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
+header {
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+}
+
+footer {
+  background-color: var(--background-color);
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+}
+.hero {
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+}
+
+.team {
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+}
 
 .visually-hidden {
   position: absolute;
@@ -57,9 +84,7 @@ body {
   margin: -1px;
 }
 
-footer {
-  background-color: var(--background-color);
-}
+
 
 .header-logo {
   color: var(--title-text-color);
