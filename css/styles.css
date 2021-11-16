@@ -9,6 +9,34 @@
   --background-color: #2f303a;
   --footer-color: rgba(255, 255, 255, 0.6);
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
+address {
+    font-style: normal;
+}
+
 body {
   background-color: var(--primary-white-color);
   color: var(--secondary-text-color);
@@ -33,10 +61,6 @@ footer {
   background-color: var(--background-color);
 }
 
-.mail-color {
-  color: var(--footer-color);
-}
-
 .header-logo {
   color: var(--title-text-color);
 }
@@ -47,11 +71,6 @@ footer {
   line-height: 1.19;
   text-decoration: none;
   color: var(--logo-color);
-}
-
-.logo:hover,
-.logo:focus {
-  color: var(--accent-color);
 }
 .site-nav {
   font-weight: 500;
@@ -65,13 +84,42 @@ footer {
   color: inherit;
 }
 
-.mail-color :hover,
-.mail-color :focus {
+.logo:hover,
+.logo:focus {
   color: var(--accent-color);
 }
 
+.mail-color:hover,
+.mail-color:focus {
+  color: var(--accent-color);
+}
+.clients.list:hover,
+.clients.list:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
 .site-nav a:hover,
 .site-nav a:focus {
+  color: var(--accent-color);
+}
+
+.button:hover,
+.button:focus {
+  color: var(--accent-color);
+}
+.logo-footer:hover,
+.logo-footer:focus,
+.version:hover,
+.version:focus {
+  color: var(--accent-color);
+}
+.header-logo:hover,
+.header-logo:focus {
+  color: var(--accent-color);
+}
+.button-hero:hover,
+.button-hero:focus {
+  background-color: var(--primary-white-color);
   color: var(--accent-color);
 }
 
@@ -91,10 +139,7 @@ footer {
   color: var(--secondary-text-color);
 }
 
-.button:hover,
-.button:focus {
-  color: var(--accent-color);
-}
+
 
 .list {
   list-style: none;
@@ -152,7 +197,7 @@ footer {
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+  color: var(--footer-color);
   text-decoration: none;
 }
 
@@ -226,7 +271,7 @@ footer {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
-}
+  }
 
 .type-works {
   font-weight: bold;
@@ -260,11 +305,7 @@ footer {
   color: var(--primary-text-color);
 }
 
-.clients.list:hover,
-.clients.list:focus {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-}
+
 .dev-by {
   font-size: 12px;
   text-align: center;
@@ -286,13 +327,12 @@ footer {
   background-color: var(--background-color);
 }
 
-.logo-footer :hover,
-.logo-footer :focus {
-  color: var(--accent-color);
-}
+
 .team {
   background-color: var(--team-background-color);
 }
 .team-card {
   background-color: var(--primary-white-color);
 }
+.mail-color {
+  color: var(--secondary-text-color);
