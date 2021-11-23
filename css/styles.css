@@ -71,7 +71,6 @@ body {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #ececec;
-  
 }
 .navigation {
   display: flex;
@@ -133,9 +132,7 @@ body {
 .header-tel-link:focus {
   color: var(--hover-color);
 }
-.header-list-item:not(:last-child) {
-  margin-right: 35px;
-}
+
 .header-mail-link,
 .header-tel-link {
   padding-top: 32px;
@@ -150,8 +147,15 @@ body {
 .address-list {
   display: flex;
   justify-content: space-between;
+}
+
+.header-tel-link,
+.header-mail-link {
   padding-top: 32px;
   padding-bottom: 32px;
+}
+.header-mail-link {
+  margin-right: 50px;
 }
 
 .hero {
